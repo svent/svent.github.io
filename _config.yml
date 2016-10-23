@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               Sven Taute's Blog
+tagline:             ''
+description:         ''
+url:                 http://svent.github.io
+baseurl:             ''
+gems: [jekyll-paginate, jekyll-gist]
+paginate:            5
+paginate_path: "page:num"
+
+# About/contact
+author:
+  name:              Sven Taute
+  url:               https://twitter.com/sven_t
+  email:             sven.taute@gmail.com
+
+# Custom vars
+version:             1.0.0
